@@ -3,6 +3,11 @@
   position: relative;
   align-items: center;
   max-width: 984px;
-  max-height: 1005px;
   margin-top: 56px;
  }
+
+@media screen and (max-width: 1279px) {
+ .lead {
+  margin-top: 48px;
+ }
+}

@@ -8,22 +8,21 @@
   line-height: 106%;
 }
   
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1279px) {
   .cards__title {
     max-width: 440px;
   }
 }
   
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
   .cards__title {
     max-width: 340px;
     font-size: 42px;
     line-height: 110%;
-    padding-left: 24px;
   }
 }
   
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
   .cards__title {
     max-width: 288px;
     font-size: 32px;

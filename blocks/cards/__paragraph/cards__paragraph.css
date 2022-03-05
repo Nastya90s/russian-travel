@@ -1,20 +1,24 @@
 .cards__paragraph {
   margin: 0;
-  margin-bottom: 26px;
   font-style:  normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 163%;
   color: #FFFFFF;
+  margin-bottom: 26px;
 }
 
-@media screen and (max-width: 1024px) {
+.cards__paragraph:last-child {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 1279px) {
   .cards__paragraph {
-  margin-bottom: 27px;
+   margin-bottom: 27px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .cards__paragraph {
     margin-bottom: 25px;
   }

@@ -4,16 +4,21 @@
   min-height: 429px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1279px) {
   .intro {
-    margin-top: 88px;
-    margin: 72px 24px 0px;
+    margin-left: 48px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
+  .intro {
+    margin-top: 88px;
+    margin-left: 24px;
+  }
+}
+
+@media screen and (max-width: 767px) {
   .intro {
     margin: 64px 16px 0px;
-    margin-top: 64px;
   }
 }

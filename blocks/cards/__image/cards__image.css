@@ -1,12 +1,31 @@
 .cards__image  {
-  max-width: 100%;
+  max-width: 460px;
   grid-row: 2;
   grid-column: 1;
   object-fit: cover;
 }
   
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1279px) {
+  .cards__image {
+    max-width: 440px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .cards__image {
+    max-width: 340px;
+  }
+}
+
+@media screen and (max-width: 767px) {
   .cards__image {
     grid-row: 3;
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cards__image {
+    max-width: 320px;
   }
 }
