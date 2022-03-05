@@ -1,0 +1,14 @@
+.cards__website {
+  align-self: end;
+  justify-self: start;
+  grid-row: 1;
+  grid-column: 2;
+}
+
+@media screen and (max-width: 768px) {
+  .cards__website {
+    grid-row: 2;
+    grid-column: 1;
+    padding-left: 16px;
+  }
+}

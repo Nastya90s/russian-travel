@@ -1,0 +1,22 @@
+.cards__url-heading {
+  margin: 0;
+  margin-bottom: 12px;
+  color: #AAAAAA;
+  font-style:  normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 2px;
+}
+
+@media screen and (max-width: 768px) {
+  .cards__url-heading{
+    max-width: 352px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cards__url-heading {
+    max-width: 288px;
+  }
+}
