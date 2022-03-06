@@ -6,11 +6,13 @@
  padding: 0;
  flex-direction: row;
  list-style: none;
+ font-size: 24px;
 }
 
 @media screen and (max-width: 767px) {
  .header__lang-links {
     margin-top: 14px;
     line-height: 20px;
+    font-size: 18px
  }
 }

@@ -1,6 +1,5 @@
 .footer__link {
  margin: 0;
- margin-right: 18px;
  text-decoration: none;
  font-style: normal;
  font-weight: normal;
@@ -9,6 +8,11 @@
  transition: opacity 0.2s linear;
  opacity: 1;
  color: #FFFFFF;
+ margin-right: 18px;
+}
+
+.footer__link:last-child {
+  margin-right: 0;
 }
 
 .footer__link:hover {
@@ -20,7 +24,6 @@
     font-size: 24px;
     font-style: normal;
     font-weight: normal;
-    line-height: 40px;
+    line-height: 100%;
   }
 }
-
