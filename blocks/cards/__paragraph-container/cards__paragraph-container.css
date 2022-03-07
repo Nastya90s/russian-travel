@@ -9,6 +9,11 @@
     padding-right: 16px;
     grid-row: 4;
     grid-column: 1;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .cards__paragraph-container {
     max-width: 288px;
   }
 }

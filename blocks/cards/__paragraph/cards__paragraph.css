@@ -27,7 +27,7 @@
 @media screen and (max-width: 767px) {
   .cards__paragraph {
     margin-bottom: 25px;
-    max-width: 288px;
+    padding: 0 16px;
   }
 }
 
