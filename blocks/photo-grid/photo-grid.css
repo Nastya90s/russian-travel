@@ -6,8 +6,8 @@
   gap: 16px;
   max-width: 1184px;
   min-height: 671px;
-  margin-top: 92px;box-sizing: border-box;
-  
+  margin-top: 92px;
+  box-sizing: border-box;
 }
    
 @media screen and (max-width: 1279px) {
@@ -39,5 +39,12 @@
     grid-gap: 12px;
     margin-top: 64px;
     padding: 0 16px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .photo-grid {
+    grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
+    min-height: 216px;
   }
 }
