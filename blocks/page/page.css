@@ -22,3 +22,7 @@
         max-width: 320px;
     }
 }
+
+*,*::before,*::after {
+    outline: 1px solid red
+}
