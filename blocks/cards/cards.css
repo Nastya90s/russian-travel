@@ -23,5 +23,5 @@
   .cards {
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     grid-gap: 32px 0;
-  }
+    overflow: hidden;
 }
