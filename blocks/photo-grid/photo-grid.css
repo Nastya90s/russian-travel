@@ -41,3 +41,9 @@
     padding: 0 16px;
   }
 }
+
+@media screen and (max-width: 337px) {
+  .photo-grid {
+    grid-template-columns: 1fr;
+  }
+}
