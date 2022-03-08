@@ -3,6 +3,12 @@
   grid-column: 2;
 }
 
+@media screen and (max-width: 1023px) {
+  .cards__paragraph-container {
+    max-width: 100%;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .cards__paragraph-container {
     padding-left: 16px;
